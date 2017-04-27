@@ -9,9 +9,9 @@ Feature: Linkedin Login Test
     Then Se debe mostrar mensaje de error
 
     Examples: 
-      | usuario 	| 	contrasena 	 | 	browser		 |
-      |    "1111" 	|     "112233" 	 |  "iexplorer"  |
-      |    "1111" 	|     "112233"   |  "chrome"     |
+      | usuario 	|   contrasena 	 | browser  	 |
+      |    "1111" 	|     "112233" 	 |  "chrome"     |
+      |    "1111" 	|     "112233"   |  "iexplorer"  |
 	  
 	  
 	  
@@ -29,6 +29,6 @@ Feature: Linkedin busqueda de contacto en mi red
     Then Se debe visualizar perfil del contacto
 
     Examples: 
-      | usuario            		 	| contrasena     			|  	browser		 |
-      | "dalifaceb@gmail.com" 	| "linkedintest88" 				| "iexplorer"  	 |
-      | "dalifaceb@gmail.com" 	| "linkedintest88" 				| "chrome"       |
+      | usuario            	| contrasena     		|  browser       |
+      | "dalifaceb@gmail.com" 	| "linkedintest88" 		| "chrome"  	 |
+      | "dalifaceb@gmail.com" 	| "linkedintest88" 		| "iexplorer"       |
